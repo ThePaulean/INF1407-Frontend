@@ -1,6 +1,6 @@
 // Exemplo de uma função para carregar detalhes da postagem e comentários
 async function loadPostAndComments() {
-    const backendAddress = 'http://127.0.0.1:8000/';
+    const backendAddress = 'conectapucv2-9ee7c697e1e1.herokuapp.com/';
 
     try {
         let response = await fetch(backendAddress + 'api/postagens/', { method: 'GET' });

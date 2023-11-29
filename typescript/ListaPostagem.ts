@@ -18,7 +18,7 @@ interface Comment {
 
 // Example of a function to load post details and comments
 async function loadPostAndComments(): Promise<void> {
-    const backendAddress = 'http://127.0.0.1:8000/';
+    const backendAddress = 'conectapucv2-9ee7c697e1e1.herokuapp.com/';
 
     try {
         let response = await fetch(backendAddress + 'api/postagens/', { method: 'GET' });
@@ -95,7 +95,7 @@ async function displayComments(comments: Comment[]): Promise<void> {
 }
 
 function getUsernameByToken(autor: string): Promise<string | undefined> {
-    const backendAddress = "http://127.0.0.1/8000";
+    const backendAddress = "conectapucv2-9ee7c697e1e1.herokuapp.com";
     return fetch(backendAddress + 'contas/token-auth', {
         method: 'GET',
         headers: {
