@@ -106,7 +106,7 @@ function createForumElement(forum) {
     var forumId = this.id;
     console.log(forumId)
 
-    fetch("http://localhost:8000/api/foruns/delete/"+ forumId, {
+    fetch("http://https://conectapucv2-9ee7c697e1e1.herokuapp.com/api/foruns/delete/"+ forumId, {
         method: 'DELETE',
         headers: { 'Content-Type': 'application/json' }
     })
