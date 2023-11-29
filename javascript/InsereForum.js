@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const criarForumForm = document.getElementById('criar-forum-form');
-    const backendAddress = 'conectapucv2-9ee7c697e1e1.herokuapp.com/';
+    const backendAddress = 'https://conectapucv2-9ee7c697e1e1.herokuapp.com/';
 
     if (criarForumForm) {
         criarForumForm.addEventListener('submit', async (event) => {

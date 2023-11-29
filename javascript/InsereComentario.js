@@ -13,7 +13,7 @@ function create_comment() {
             const token = localStorage.getItem('token');
             const postId =localStorage.getItem('currentPostId'); /* obtenha o ID da postagem atual, você pode armazenar isso localmente ou obter de outra forma */
 
-            const backendAddress = 'conectapucv2-9ee7c697e1e1.herokuapp.com/';
+            const backendAddress = 'https://conectapucv2-9ee7c697e1e1.herokuapp.com/';
             console.log(commentBody);
             console.log(token);
             console.log(postId);

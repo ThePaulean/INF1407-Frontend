@@ -2,7 +2,7 @@
 onload = (eventon) => {
     document.getElementById('logout').addEventListener('click', (evento) => {
         const token = localStorage.getItem('token');
-        const backendAddress = 'conectapucv2-9ee7c697e1e1.herokuapp.com/';
+        const backendAddress = 'https://conectapucv2-9ee7c697e1e1.herokuapp.com/';
         fetch(backendAddress + 'contas/token-auth', {
             method: 'DELETE',
             headers: {

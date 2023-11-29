@@ -17,7 +17,7 @@ function createPost(): void {
             const token = localStorage.getItem('token') || '';
             const forumAtual = localStorage.getItem('id_forum') || '';
 
-            const backendAddress = 'conectapucv2-9ee7c697e1e1.herokuapp.com/';
+            const backendAddress = 'https://conectapucv2-9ee7c697e1e1.herokuapp.com/';
 
             fetch(backendAddress + "/api/postagens/create/", {
                 method: "POST",

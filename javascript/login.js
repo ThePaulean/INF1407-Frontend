@@ -5,7 +5,7 @@ onload = () => {
         const username = document.getElementById('username').value;
         const password = document.getElementById('password').value;
         const msg = document.getElementById('msg');
-        const backendAddress = 'conectapucv2-9ee7c697e1e1.herokuapp.com/';
+        const backendAddress = 'https://conectapucv2-9ee7c697e1e1.herokuapp.com/';
         fetch(backendAddress + 'contas/token-auth', {
             method: 'POST',
             body: JSON.stringify({

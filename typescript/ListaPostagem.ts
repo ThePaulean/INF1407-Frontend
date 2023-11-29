@@ -18,7 +18,7 @@ interface Comment {
 
 // Example of a function to load post details and comments
 async function loadPostAndComments(): Promise<void> {
-    const backendAddress = 'conectapucv2-9ee7c697e1e1.herokuapp.com/';
+    const backendAddress = 'https://conectapucv2-9ee7c697e1e1.herokuapp.com/';
 
     try {
         let response = await fetch(backendAddress + 'api/postagens/', { method: 'GET' });

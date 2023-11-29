@@ -14,7 +14,7 @@ function createComment(): void {
             const token = localStorage.getItem('token') || '';
             const postId = localStorage.getItem('currentPostId') || ''; 
 
-            const backendAddress = 'conectapucv2-9ee7c697e1e1.herokuapp.com/';
+            const backendAddress = 'https://conectapucv2-9ee7c697e1e1.herokuapp.com/';
 
             console.log(commentBody, token, postId);
 
