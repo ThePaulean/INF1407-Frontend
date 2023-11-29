@@ -14,7 +14,7 @@ window.onload = function (){
               const titulo = tituloElement.value;
               const conteudo = conteudoElement.value;
 
-              fetch("http://https://conectapucv2-9ee7c697e1e1.herokuapp.com/api/postagens/update/" + currentPostId + "/", {
+              fetch("https://conectapucv2-9ee7c697e1e1.herokuapp.com/api/postagens/update/" + currentPostId + "/", {
                   method: 'PUT',
                   headers: { 'Content-Type': 'application/json' },
                   body: JSON.stringify({ 

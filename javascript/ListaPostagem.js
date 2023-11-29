@@ -79,7 +79,7 @@ async function displayPostDetails(post) {
                 var postagemId = post.id;
                 console.log(postagemId)
         
-                fetch("http://https://conectapucv2-9ee7c697e1e1.herokuapp.com/api/postagens/delete/"+ postagemId, {
+                fetch("https://conectapucv2-9ee7c697e1e1.herokuapp.com/api/postagens/delete/"+ postagemId, {
                     method: 'DELETE',
                     headers: { 'Content-Type': 'application/json' }
                 })
@@ -237,7 +237,7 @@ async function createCommentElement(comment) {
             var comentarioId = comment.id;
             console.log(comment.id)
         
-            fetch("http://https://conectapucv2-9ee7c697e1e1.herokuapp.com/api/comentarios/delete/"+ comentarioId, {
+            fetch("https://conectapucv2-9ee7c697e1e1.herokuapp.com/api/comentarios/delete/"+ comentarioId, {
                 method: 'DELETE',
             })
             .then(response => {
