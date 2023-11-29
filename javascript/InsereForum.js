@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 if (response.ok) {
                     console.log('Fórum criado com sucesso!');
-                    window.location.href = "listar_foruns.html";
+                    window.location.href = "index.html";
                 } else {
                     console.error('Erro ao criar o fórum:', response.statusText);
                     // Implemente aqui a lógica de tratamento de erro, se necessário

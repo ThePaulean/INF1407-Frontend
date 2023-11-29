@@ -19,7 +19,7 @@ window.onload = function () {
         }),
         })
       }
-      window.location.href = "listar_foruns.html"
+      window.location.href = "index.html"
     });
   };
   
