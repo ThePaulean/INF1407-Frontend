@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title id="title"></title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/visualisar_postagens.css" rel="stylesheet">
+
+    <script src="javascript/constantes.js"></script>
+    <script src="javascript/autenticacao.js"></script>
+    <script type="module" src="javascript/ListaPostagem.js"></script>
+</head>
+
+<body>
+    <iframe src="cabecalho.html" frameborder="0" width="100%" height="50" id="cabecalho"></iframe>
+    <main>
+        
+        <h1>Postagens</h1>
+        <div class="container">
+            <div class="row">
+                <!-- Detalhes da Postagem -->
+                <a href="criar_postagem.html">Inserir Postagem</a>
+                <div id="postsContainer"></div>
+                    <!-- Botão para Inserir Postagem -->
+                    <div id='comments'>
+                        <!-- Os comentários serão adicionados aqui dinamicamente pelo JavaScript -->
+                    </div>
+                </div>
+                <!-- Comentários da Postagem -->
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

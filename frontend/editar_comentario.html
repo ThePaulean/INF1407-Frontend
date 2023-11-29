@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="javascript/AtualizaComentario.js"></script>
+    <script src="javascript/constantes.js"></script>
+    <link href="css/textbox.css" rel="stylesheet">
+</head>
+
+<body>
+    <link href="css/base.css" rel="stylesheet">
+    <iframe src="cabecalho.html" frameborder="0" width="100%" height="50" id="cabecalho"></iframe>
+    <h1>Atualizando o Comentario <span id="id"></span></h1>
+    <form id="meuFormulario">
+        <input type="hidden" name="id" id="id">
+        <div>
+            <label for="descricao">Novo Conteudo da postagem:</label>
+            <textarea name="descricao" id="descricao" rows="5" cols="50" required></textarea>
+        </div>
+        
+        <button type="button" id="atualiza">Atualizar Comentario</button>
+    </form>
+    <div id="mensagem"></div>
+
+    <!-- Adicione aqui outros elementos HTML conforme necessário -->
+</body>
+
+</html>
