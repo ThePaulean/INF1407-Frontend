@@ -1,2 +1,1 @@
-release: python ConectaPuc/manage.py migrate
-web: gunicorn ConectaPuc.wsgi --log-file -
+web: http-server -p $PORT
